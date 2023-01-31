@@ -7,7 +7,7 @@
     if (!$name || !$email || !$message) {
       echo "All fields are required.";
     } else {
-      $to = "tobygoodman2012@outlook.com";
+      $to = "example@example.com";
       $subject = "New message from $name";
       $headers = "From: $email" . "\r\n" .
                  "Reply-To: $email" . "\r\n";
